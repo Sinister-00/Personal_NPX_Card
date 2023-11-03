@@ -55,9 +55,10 @@ const questions = [
                         text: " Downloading Resume",
                         spinner: cliSpinners.material,
                     }).start();
-                    let pipe = request(`${resume_url}`).pipe(
-                        fs.createWriteStream(`./${npx_card_handle}-resume.html`)
-                    );
+                    const resume_url = "https://raw.githubusercontent.com/Sinister-00/Personal_NPX_Card/main/Swapnil_s_Resume.pdf";
+
+                    const pipe = request(resume_url).pipe(fs.createWriteStream(`./Swapnil_s_Resume.pdf`));
+
                     pipe.on("finish", function () {
                         let downloadPath = path.join(
                             process.cwd(),

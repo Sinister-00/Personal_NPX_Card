@@ -1,6 +1,6 @@
 {
   "name": "sinister-code",
-  "version": "2.2.4",
+  "version": "2.3.8",
   "author": "Swapnil <swapnildhamu76@gmail.com>",
   "main": "card.js",
   "bin": "./card.js",
