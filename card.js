@@ -61,7 +61,7 @@ const questions = [
                     pipe.on("finish", function () {
                         let downloadPath = path.join(
                             process.cwd(),
-                            `${npx_card_handle}-resume.html`
+                            `${npx_card_handle}-Swapnil_s_Resume.pdf`
                         );
                         console.log(`\nResume Downloaded at ${downloadPath} \n`);
                         open(downloadPath);
