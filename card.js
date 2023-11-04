@@ -26,11 +26,11 @@ const main = async () => {
         personal_site,
         npx_card_handle,
         job_title,
-        resume_url,
+        Name
     } = user_data;
 
     const data = {
-        name: chalk.bold.green(`                  ${user_name}`),
+        name: chalk.bold.green(`                        ${Name}`),
         work: `${chalk.white(`${job_title}`)}`,
         twitter: chalk.gray("https://twitter.com/") + chalk.cyan(`${twitter_username}`),
         github: chalk.gray("https://github.com/") + chalk.green(`${github_username}`),
