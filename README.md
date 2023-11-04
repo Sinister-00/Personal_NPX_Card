@@ -15,7 +15,7 @@ The final output might look something like this:
 
 <br />
 
-![Image](https://github.com/Sinister-00/Personal_NPX_Card/blob/main/Demo/screenshot.png)
+![Image](https://github.com/Sinister-00/Personal_NPX_Card/blob/main/Demo/Screenshot1.png)
 
 <br />
 <hr/>
